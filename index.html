@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Form </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+   <h1> Fill this form to get a free daily horoscope for your sign. </h1>
+
+   <form class="form" method="post" action="/">
+        
+      <div class="cont">
+        <label> Name </label>
+        <input name="name" placeholder="Your name"/>
+      </div>
+       
+      <div>
+        <label> Email </label>
+        <input name="email" type="email" placeholder="Your email"/>
+      </div>
+        
+      <div class="cont">
+        <label> Choose your zodiac sign </label>
+       <select name="message">
+        <option> Aries </option>
+        <option> Taurus </option>
+        <option> Gemini </option>
+        <option> Cancer</option>
+        <option> Leo </option>
+        <option> Virgo </option>
+        <option> Libra </option>
+        <option> Scorpio </option>
+        <option> Sagittarius </option>
+        <option> Capricorn </option>
+        <option> Aquarius </option>
+        <option> Pisces</option>
+       </select>
+    </div>
+
+    <div class="cont">
+        <label> Or type your date of birth </label>
+        <input name="birth" type="date">
+    </div>
+
+    <div class="cont">
+        <button> Send </button>
+    </div>
+
+    </form>
+  
+</body>
+</html>
